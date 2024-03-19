@@ -1,3 +1,5 @@
+import satData from "./satData";
+
 const Buttons = ({ filterByType, setSat, displaySats }) => {
   return (
     <div>
@@ -5,6 +7,6 @@ const Buttons = ({ filterByType, setSat, displaySats }) => {
       <button>All Orbits</button>
     </div>
   );
-};
+}; 
 
 export default Buttons;
