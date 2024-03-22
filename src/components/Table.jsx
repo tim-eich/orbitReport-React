@@ -15,9 +15,9 @@ const Table = ({ sat }) => {
       { sat.map(( data, id ) => {
         return(
           <tr key ={ sat.id }>
-            <td key ={ sat.id} >{ data.name }</td>
-            <td key ={ sat.id} >{ data.type }</td>
-            <td key ={ sat.id} >{ data.launchDate }</td>
+            <td key ={ sat.id } >{ data.name }</td>
+            <td key ={ sat.id } >{ data.type }</td>
+            <td key ={ sat.id } >{ data.launchDate }</td>
             { sat.operational ? <td key ={ sat.id} >Active</td> : <td key ={ sat.id} >Inactive</td> }
           </tr>
         )
